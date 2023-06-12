@@ -1,0 +1,166 @@
+body {
+    font-family: Arial;
+    background-color: rgb(23,30,44);
+}
+.container {
+    display: flex;
+}
+.box {
+    background-color: red;
+}
+
+/* Middle side */
+#SideBoxMiddle {
+    height: 785px;
+    width: 420px;
+    background-color: rgb(23,30,44);
+}
+#StronaGlowna{
+    background-color: rgb(42,46,51);
+    color: gray;
+    font-size: 1.1em;
+    padding: 10px;
+    border-radius: 5%; 
+}
+#StronaGlowna:hover {
+    color: white;
+}
+#searchBar {
+    height: 22px;
+    width: 300px;
+    background-color:rgb(42,46,51) ;
+    border: 3px solid rgb(23,30,44);
+    border-radius: 5%;
+    font-size: large;
+    color: white;
+}
+#gameNavBar {
+    background-color: rgb(42,46,51);
+    font-size: 1.1em;
+    border-radius: 5%;
+}
+#firstGame {
+    margin-top: 10px;
+}
+.game{
+    color: gray;
+}
+.game:hover {
+    color: white;
+}
+.gamePhoto{
+    height: 17px;
+    width: 17px;
+}
+nav ul{height:700px; width:100%;}
+nav ul{overflow:hidden; overflow-y:scroll;}
+
+/* Middle main */
+#MainBoxMiddle{
+    height: 785px;
+    width: 100%;
+    background-color: aqua;
+}
+
+/*Upper Part One*/
+.boxUpperOne {
+    display: flex;
+    margin-left: 7px;
+    margin-top: 5px;
+    font-size: small;
+    color: grey;
+}
+.boxUpperOne:hover {
+    color: white;
+}
+#UpperPartOneOne, #UpperPartOneThree {
+    width: 400px;
+}
+#UpperPartOneTwo {
+    width: 100%;
+}
+#photo1 {
+    height: 10px;
+}
+#box1upper, #box2upper {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(23,30,44);
+    display: flex;
+}
+
+/*Upper Part Two*/
+.boxUpperTwo{
+    display: flex;
+    margin-left: 12px;
+    margin-top: 2px;
+    font-size: 1.21em;
+    color: grey;
+}
+.boxUpperTwo:hover {
+    color: white;
+}
+#UpperPartTwoOne {
+    width: 60px;
+    height: 30px;
+}
+
+/*Down Part*/
+#box1down {
+    display: flex;
+    height: 55px;
+    width: 100%;
+    background-color: rgb(42,46,51);
+    color: gray;
+}
+.boxDown {
+    display: flex;
+}
+#downOne {
+    margin-top: 10px;
+    margin-left: 8px;
+    height: 30px;
+    width: 30px;
+}
+#downTwo {
+    margin-top: 16px;
+    margin-left: 8px;
+    width: 100px;
+}
+#DownPartTwo{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2px;
+}
+#downFour{
+    font-size: small;
+    margin-left: 738px;
+}
+#downThree {
+    margin-top: 8px;
+    margin-left: 720px;
+}
+#DownPartThree{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2px;
+}
+#downSix{
+    font-size: small;
+    margin-left: 820px;
+}
+#downFive{
+    margin-left: 820px;
+    margin-top: 8px;
+}
+#DownPartOne:hover {
+    color: white;
+}
+#DownPartTwo:hover {
+    color: white;
+}
+#DownPartThree:hover {
+    color: white;
+}
