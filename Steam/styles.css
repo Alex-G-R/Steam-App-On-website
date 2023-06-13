@@ -1,12 +1,11 @@
 body {
     font-family: Arial;
     background-color: rgb(23,30,44);
+    max-width: 100%;
+    max-height: 100%;
 }
 .container {
     display: flex;
-}
-.box {
-    background-color: red;
 }
 
 /* Middle side */
@@ -20,7 +19,6 @@ body {
     color: gray;
     font-size: 1.1em;
     padding: 10px;
-    border-radius: 5%; 
 }
 #StronaGlowna:hover {
     color: white;
@@ -30,17 +28,15 @@ body {
     width: 300px;
     background-color:rgb(42,46,51) ;
     border: 3px solid rgb(23,30,44);
-    border-radius: 5%;
     font-size: large;
     color: white;
 }
 #gameNavBar {
     background-color: rgb(42,46,51);
     font-size: 1.1em;
-    border-radius: 5%;
 }
 #firstGame {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .game{
     color: gray;
@@ -52,15 +48,29 @@ body {
     height: 17px;
     width: 17px;
 }
-nav ul{height:700px; width:100%;}
-nav ul{overflow:hidden; overflow-y:scroll;}
+#gameNavBar nav ul{height:700px; width:100%;}
+#gameNavBar nav ul{overflow:hidden; overflow-y:scroll;}
 
 /* Middle main */
 #MainBoxMiddle{
     height: 785px;
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(42,47,56);
 }
+.photoBanner {
+    height: 350px;
+    width: 232px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#gamePhotos ul {
+    list-style-type: none;
+}
+.photoBanner:hover {
+    box-shadow: 0px 0px 10px #fff;
+}
+#gamePhotoBar nav ul{height:785px; width:97,5%;}
+#gamePhotoBar nav ul{overflow:hidden; overflow-y:scroll;}
 
 /*Upper Part One*/
 .boxUpperOne {
@@ -88,6 +98,9 @@ nav ul{overflow:hidden; overflow-y:scroll;}
     background-color: rgb(23,30,44);
     display: flex;
 }
+.arrow {
+    height: 40px;
+}
 
 /*Upper Part Two*/
 .boxUpperTwo{
@@ -96,6 +109,7 @@ nav ul{overflow:hidden; overflow-y:scroll;}
     margin-top: 2px;
     font-size: 1.21em;
     color: grey;
+    background-color: rgb(23,30,44);
 }
 .boxUpperTwo:hover {
     color: white;
@@ -163,4 +177,36 @@ nav ul{overflow:hidden; overflow-y:scroll;}
 }
 #DownPartThree:hover {
     color: white;
+}
+
+/* Hidding scroll bars */
+/* Don't know how it works :D */
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* For Firefox */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.1);
+}
+
+html::-moz-scrollbar {
+    width: 0.5em;
+}
+
+html::-moz-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+html::-moz-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
 }
