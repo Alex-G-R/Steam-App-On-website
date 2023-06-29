@@ -1,6 +1,6 @@
 body {
     font-family: Arial;
-    background-color: rgb(23,30,44);
+    background-color: rgb(42,46,51);
     max-width: 100%;
     max-height: 100%;
 }
@@ -12,7 +12,7 @@ body {
 #SideBoxMiddle {
     height: 785px;
     width: 420px;
-    background-color: rgb(23,30,44);
+    background-color: rgb(42,46,51);
 }
 #StronaGlowna{
     background-color: rgb(42,46,51);
@@ -34,9 +34,6 @@ body {
 #gameNavBar {
     background-color: rgb(42,46,51);
     font-size: 1.1em;
-}
-#firstGame {
-    margin-top: 5px;
 }
 .game{
     color: gray;
@@ -62,12 +59,14 @@ body {
     width: 232px;
     margin-left: 10px;
     margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 12px black;
 }
 #gamePhotos ul {
     list-style-type: none;
 }
 .photoBanner:hover {
-    box-shadow: 0px 0px 10px #fff;
+    box-shadow: 0px 0px 20px #fff;
 }
 #gamePhotoBar nav ul{height:785px; width:97,5%;}
 #gamePhotoBar nav ul{overflow:hidden; overflow-y:scroll;}
@@ -131,13 +130,13 @@ body {
     display: flex;
 }
 #downOne {
-    margin-top: 10px;
+    margin-top: 14px;
     margin-left: 8px;
     height: 30px;
     width: 30px;
 }
 #downTwo {
-    margin-top: 16px;
+    margin-top: 20px;
     margin-left: 8px;
     width: 100px;
 }
@@ -152,7 +151,7 @@ body {
     margin-left: 738px;
 }
 #downThree {
-    margin-top: 8px;
+    margin-top: 20px;
     margin-left: 720px;
 }
 #DownPartThree{
@@ -167,7 +166,7 @@ body {
 }
 #downFive{
     margin-left: 820px;
-    margin-top: 8px;
+    margin-top: 20px;
 }
 #DownPartOne:hover {
     color: white;
